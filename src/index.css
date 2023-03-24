@@ -1,0 +1,138 @@
+
+.todo {
+        background-color: rgb(26, 26, 26);
+        align-items: center;
+        
+    }
+    
+    
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #c84444;
+        
+    }
+
+
+    .pokeball {
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+    }
+
+
+    .lema{
+        height: 100px;
+        width: 200px;
+    }
+    
+
+    .title img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+
+    
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 500px;
+    
+       
+    }
+    
+    .btn p{
+        color: #fff;
+    }
+    
+    .btn button {
+        padding: 10px;
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block; 
+        padding: 16px 24px; 
+        border: 2px solid rgb(44, 117, 235); 
+        border-radius: 50px; 
+        background-color: rgb(251, 216, 91); 
+        color: rgb(44, 117, 235); 
+        font-weight: bold; 
+        text-transform: uppercase; 
+        font-size: 18px;
+    }
+    
+    .mensaje{
+        color: #fff;
+        text-align: center;
+
+    }
+    
+    .img.poke {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        height: 300px;
+        background-color: #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 10px;
+        width: 300px;
+        margin-left: 600px;
+    }
+    
+
+    
+    .img.poke img {
+        max-height: 300px;
+        max-width: 100%;
+        margin: 10px;
+    }
+    
+    .consiguelos {
+        color: rgb(251, 216, 91);
+        text-align: center;
+        font-size: 30px;
+        text-shadow: -1px 0 rgb(44, 117, 235), 0 2px rgb(44, 117, 235), 2px 0 rgb(44, 117, 235), 0 -1px rgb(44, 117, 235);
+        font-family: 'Pokemon Solid', sans-serif;
+    }
+        
+    
+    .listas {
+        display: flex;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 290px;
+        color: rgb(251, 216, 91);
+        font-weight: lighter;
+        text-shadow: -1px 0 rgb(44, 117, 235), 0 1px rgb(44, 117, 235), 1px 0 rgb(44, 117, 235), 0 -1px rgb(44, 117, 235);
+        font-family: 'Pokemon Solid', sans-serif;
+    }
+    
+    .listaencontrados{
+        margin-left: 290px;
+    }
+    
+    .listas h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+
+    
+    .listas ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+
+    
+    .listas li {
+        margin-bottom: 10px;
+    }
